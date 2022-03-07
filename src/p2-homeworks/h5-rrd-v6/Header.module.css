@@ -1,0 +1,44 @@
+
+.active {
+    color: #02787D;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.drop {
+    background-image: url("menu.png");
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    border: none;
+}
+.dropdown {
+    position: center;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color:  #02787D;
+    min-width: 160px;
+    box-shadow: 8px 8px 8px 0px rgba(5, 88, 85, 0.98);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdownContent a {
+    color: #57FFD4;
+    padding: 8px 8px;
+    text-decoration: none;
+    display:inline-flex;
+}
+
+/* Change color of dropdown links on hover */
+.dropdownContent a:hover {background-color: #2F4F4F;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdownContent {display: inline-flex;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #02787D;}

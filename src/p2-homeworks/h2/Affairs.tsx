@@ -1,12 +1,13 @@
 import React from 'react'
 import Affair from './Affair'
 import {AffairPriorityType, AffairType, FilterType} from './HW2'
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 
 type AffairsPropsType = { // need to fix any
-    data:Array<AffairType>
-    setFilter:(val:'all'|AffairPriorityType)=>void
-    deleteAffairCallback:(_id:number)=>void
+    data: Array<AffairType>
+    setFilter: (val: 'all' | AffairPriorityType) => void
+    deleteAffairCallback: (_id: number) => void
 }
 
 function Affairs(props: AffairsPropsType) {
@@ -17,7 +18,6 @@ function Affairs(props: AffairsPropsType) {
             deleteAffairCallback={props.deleteAffairCallback}
         />
     ))
-
     const setAll = () => {
         props.setFilter('all')
     }
@@ -34,10 +34,16 @@ function Affairs(props: AffairsPropsType) {
     return (
         <div>
             {mappedAffairs}
-            <button onClick={setAll}>All</button>
+            <SuperButton onClick={setAll}>All</SuperButton>
+            <SuperButton onClick={setHigh}>High</SuperButton>
+            <SuperButton onClick={setMiddle}>Middle</SuperButton>
+            <SuperButton onClick={setLow}>Low</SuperButton>
+            {
+                /* <button onClick={setAll}>All</button>
             <button onClick={setHigh}>High</button>
             <button onClick={setMiddle}>Middle</button>
-            <button onClick={setLow}>Low</button>
+            <button onClick={setLow}>Low</button>*/ // old design buttons
+            }
         </div>
     )
 }

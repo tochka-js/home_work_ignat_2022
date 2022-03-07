@@ -1,9 +1,10 @@
 .someClass {
-
+border-color: darkgreen;
 }
 
 .error {
-    border: 2px solid red;
+    color: red;
+
 
 }
 

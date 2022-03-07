@@ -4,8 +4,8 @@
         transform: translateY(0);
     }
     40% {
-        transform: translateY(-15px);
-        transform: translateY(-15px);
+        transform: translateY(-5px);
+        transform: translateY(-5px);
     }
     80% {
         transform: translateY(-5px);
@@ -14,21 +14,21 @@
 }
 
 button:hover {
-    animation: bounce 1s;
+    animation: bounce 0.5s;
 }
 
 .button {
     position: relative;
-    margin: 15px;
+    margin: 10px;
     overflow: hidden;
 }
 
 .button:active {
-    background: gray;
+    background: lightgreen;
 }
 
 .default {
-    background: darkslategray;
+    background: #02787D;
     color: aquamarine;
     outline: none;
 }
@@ -39,7 +39,8 @@ button:hover {
 
 
 .button:disabled {
-    background: gray;
+    background: darkslategray;
+    color: #02787D;
 }
 
 
