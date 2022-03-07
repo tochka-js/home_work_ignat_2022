@@ -1,0 +1,16 @@
+.checkbox {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-image: url("checkbox_unchecked.png");
+}
+
+.checkbox:checked {
+    appearance: none;
+    background-image: url("checkbox.png");
+}
+
+.spanClassName {
+
+}

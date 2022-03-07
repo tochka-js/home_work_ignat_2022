@@ -1,0 +1,52 @@
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+    80% {
+        transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+
+button:hover {
+    animation: bounce 1s;
+}
+
+.button {
+    position: relative;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.button:active {
+    background: gray;
+}
+
+.default {
+    background: darkslategray;
+    color: aquamarine;
+    outline: none;
+}
+
+.red {
+    background: crimson;
+}
+
+
+.button:disabled {
+    background: gray;
+}
+
+
+
+
+
+
+
+
+
