@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/home_work_ignat_2022/static/css/main.29423524.css",
+    "main.js": "/home_work_ignat_2022/static/js/main.8660b9d4.js",
+    "index.html": "/home_work_ignat_2022/index.html",
+    "main.29423524.css.map": "/home_work_ignat_2022/static/css/main.29423524.css.map",
+    "main.8660b9d4.js.map": "/home_work_ignat_2022/static/js/main.8660b9d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29423524.css",
+    "static/js/main.8660b9d4.js"
+  ]
+}
